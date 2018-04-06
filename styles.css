@@ -1,137 +1,176 @@
 
 html {
-  text-align: center;
+  height: 100vh;
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
 }
 
 /*----------section stylings--------*/
 
 section {
-  height: 50vh;
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  height: 25vh;
   width: 100%;
-  background-color: #3E2A35;
-  color: white;
+  background-color: #550000;
+  color: white;  
+}
+
+heading-div {
+  height: inherit;
+}
+
+select {
+  border: none;
+  background: transparent;
+  font-size: 1.25rem;
+  color: pink;
+  line-height: 12rem;
+  margin: .5rem 1rem 0 0;
+}
+
+.profile-pic {
+  margin: 1rem 0 0 2rem;
+  height: 1.75rem;
+  width: 1.75rem;
 }
 
 h1 {
   font-weight: 800;
-  font-size: 5rem;
-  padding: 2rem 0 1rem 0;
+  font-size: 4rem;
+  justify-content: flex-start;
+  align-self: flex-start;
+  margin: 2rem 0 0 .25rem;
 }
 
 h1 img {
+  position: relative;
   height: 4rem;
-  width: 4.4rem;
+  width: 4rem;
+  margin-right: .5rem;
 }
 
-form {
-  width: 45%;
-  margin: auto;
-}
-
-.input-labels {
-  float: left;
-  color: #C2B2B4;
-}
-
-.image-inputs {
-  height: 2.5rem;
-  width: 100%;
-  margin: .5rem 0 1.25rem 0;
-}
-
-.choose-add-buttons {
+.anchor-div {
+  width: 27.5rem;
   height: 3.5rem;
-  width: 10rem;
-  border: none;
-  background-color: #5B4447;
-  color: #fff;
+  align-self: flex-end;
+  align-items: flex-end;
+  margin: 0 0 0 2rem;
 }
 
-.choose-add-buttons:hover {
-  background-color: #938284;
+a {
+  align-self: flex-end;
+  font-size: 1.25rem;
+  text-decoration-line: none;
+  line-height: center;
+  margin-right: 2rem;
 }
 
-.button-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-#choose-file {
-  font-size: large;
-}
-
-.add-button {
-  font-size: large;
+a img{
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: .5rem;
 }
 
 /*------------main stylings-----------*/
+
+nav {
+  height: 3rem;
+  width: 100%;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
 main {
-  height: 50vh;
-  background-color: #C2B2B4;
+  position: relative;
+  height: 100%;
+  background-color: #FFAAAA;
   background-size: 100%;
-  padding: 1.5rem; 
   overflow: scroll;
+  padding: 1rem;
+  margin: 0 auto;
 }
 
 article {
-  display: inline-block;
   position: relative;
-  height: 20rem;
-  width: 15rem;
-  border: 2px solid #938284;
-  background-color: #fff;
+  display: inline-block;
+  height: 25rem;
+  width: 20rem;
+  background-color: lightpink;
   color: #3E2A35;
-  padding-top: 1rem;
-  margin: 1.5rem;
-}
-
-h2 {
-  width: 100%;
-  overflow: scroll;
-}
-
-.image-container {
-  height: 10.9rem;
-  width: 14.9rem;
-}
-
-.new-photo {
-  height: auto;
-  width: auto;
-  max-height: 10.9rem;
-  max-width: 14.9rem;
-  border: 1px solid black;
-}
-
-p {
-  height: 5.175rem;
-  width: 100%;
-  overflow: scroll;
+  margin: .75rem;
+  box-shadow: 2px 2px 2px purple;
 }
 
 aside {
+  position: relative;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
-  position: relative;
+  height: 7rem;
+  width: 100%;
   background-color: #5B4447;
   padding: .5rem 0 0 0;
-  bottom: 0;
-
-}
-
-button {
-  height: 2.5rem;
-  width: 2.5rem;
-  background-color: #5B4447;
-}
-
-#hate-button {
-  background-image: url('icons/delete.svg');
+  opacity: .5;
+  background-image: url('http://servicoemcasa.com/maladireta/wp-content/uploads/2015/11/saudarei-este-dia-com-amor-no-coracao-650x427.jpg');
   background-size: cover;
 }
 
-#love-button {
-  background-image: url('icons/favorite.svg');
-  background-size: cover;
+aside a {
+
+  font-size: small;
+  position: relative;
+  width: 4rem;
+}
+
+aside a img {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 0 4rem .5rem;
+}
+
+.top-right-div {
+  width: 3.5rem;
+  height: inherit;
+  text-align: center;
+  padding-right: .5rem;
+}
+
+h5 {
+  position: relative;
+  display: block;
+  z-index: 4;
+  height: 1.5rem;
+  margin: 0;
+  font-size: small;
+}
+
+.views {
+  align-self: flex-start;
+
+}
+
+h3 {
+  height: 2rem;
+  font-size: xx-large;
+  font-weight: 400;
+  margin: 0;
+}
+
+.top-number {
+  align-self: flex-end;
+}
+
+h4 {
+  margin: 0;
+  font-size: smaller;
+}
+
+
+
+/*----------queries-----------*/
+
+@media screen and (max-width: 775px) {
+  
 }
