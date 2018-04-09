@@ -108,11 +108,11 @@ aside {
   z-index: 2;
   display: flex;
   justify-content: space-between;
-  height: 7rem;
+  height: 8rem;
   width: 100%;
   background-color: #5B4447;
   padding: .5rem 0 0 0;
-  opacity: .5;
+  opacity: .85;
   background-image: url('http://servicoemcasa.com/maladireta/wp-content/uploads/2015/11/saudarei-este-dia-com-amor-no-coracao-650x427.jpg');
   background-size: cover;
 }
@@ -127,7 +127,7 @@ aside a {
 aside a img {
   width: 3rem;
   height: 3rem;
-  margin: 0 0 4rem .5rem;
+  margin: 0 0 4rem 1rem;
 }
 
 .top-right-div {
@@ -141,21 +141,27 @@ h5 {
   position: relative;
   display: block;
   z-index: 4;
-  height: 1.5rem;
+  height: 1rem;
   margin: 0;
-  font-size: small;
+  font-size: x-small;
+  font-weight: 400;
 }
 
 .views {
+  padding-top: .5rem;
   align-self: flex-start;
+}
 
+.date {
+  margin: 0 0 0 .75rem;
 }
 
 h3 {
+  align-self: flex-end;
   height: 2rem;
   font-size: xx-large;
   font-weight: 400;
-  margin: 0;
+  margin: -.4rem 0 0 0;
 }
 
 .top-number {
@@ -163,14 +169,111 @@ h3 {
 }
 
 h4 {
-  margin: 0;
-  font-size: smaller;
+  margin: .5rem 0 0 .75rem;
+  font-size: medium;
+  font-weight: 400;
 }
 
+.link-container {
+  height: 3rem;
+  width: 87%;
+  background-color: grey;
+  opacity: .5;
+  margin: .75rem auto;
+  line-height: .8rem;
+  overflow: scroll;
+  font-weight: 400;
+  padding: .4rem;
+}
 
+.link-container a {
+  width: 89%;
+  font-size: x-small;
+  overflow: scroll;
+  margin: 0;
+}
 
+.playlist {
+  margin: 1rem 0 0 .75rem;
+}
+
+.name-of {
+  margin-top: 0;
+}
+
+.attachments {
+  padding: 1rem 0 0 .75rem;
+}
+
+.big-digits {
+  padding-left: .75rem;
+  color: magenta;
+}
 /*----------queries-----------*/
 
 @media screen and (max-width: 775px) {
   
+  .anchor-div {
+    height: 100%;
+    width: 9rem;
+    margin-left: .5rem;
+    padding: 1rem auto;
+  }
+
+  .anchor-div a {
+    display: block;
+    padding: 1rem auto;
+    margin: 1.25rem 0 0 .25rem; ;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  h1 {
+    font-size: 2.75rem;
+  }
+
+  h1 img {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+@media screen and (max-device-width: 425px) {
+   
+  h1 {
+    font-size: 1.75rem;
+  } 
+
+  h1 img {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .profile-pic {
+    margin: 1rem 0 0 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  section {
+    height: 5rem;
+  }
+
+  .anchor-div {
+   z-index: -7;
+  }
+
+  .profile-pic {
+    height: 0rem;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+  article {
+    width: 95%;
+  }
 }
