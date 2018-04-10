@@ -321,7 +321,7 @@ h4 {
   }
 
   .anchor-div a {
-    margin-right: 0
+    margin-right: 0;
     font-size: 1.25rem;
   } 
 
@@ -355,9 +355,8 @@ h4 {
 
   select {
     margin-right: 0;
+    font-size: 1rem;
   }
-
-
 
   .profile-pic {
     height: 0rem;
