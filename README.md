@@ -1,6 +1,14 @@
 # llg-comp-challenge-2
 Static Comp #2 challenge
 
+Here is the original comp:
+
+![ORIGINAL](http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg)
+
+Here is my version:
+
+![MY MOCK UP](https://github.com/TwirlingGoddess/llg-comp-challenge-1/blob/master/Screen%20Shot%202018-03-27%20at%201.37.26%20PM.png)
+
 
 ## Static Comp Challenge 2
 # Specification
