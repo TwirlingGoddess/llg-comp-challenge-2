@@ -24,7 +24,7 @@ heading-div {
 select {
   border: none;
   background: transparent;
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   color: pink;
   line-height: 12rem;
   margin: .5rem 1rem 0 0;
@@ -63,9 +63,9 @@ h1 img {
   margin: 0 .5rem 0 2.5rem;
 }
 
-a {
+.anchor-div a {
   align-self: flex-end;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-decoration-line: none;
   line-height: center;
   margin-right: 2.5rem;
@@ -73,11 +73,11 @@ a {
   color: lightpink;
 }
 
-a:hover {
+.anchor-div a:hover {
   color: magenta;
 }
 
-a img{
+.anchor-div a img{
   height: 1.5rem;
   width: 1.5rem;
   margin-right: .5rem;
@@ -86,10 +86,10 @@ a img{
 /*------------main stylings-----------*/
 
 nav {
-  height: 3rem;
+  height: 5rem;
   width: 100%;
   font-weight: 400;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   color: #FCFFC1;
 }
 
@@ -106,7 +106,7 @@ main {
 article {
   position: relative;
   display: inline-block;
-  height: 25rem;
+  height: 27.5rem;
   width: 20rem;
   background-color: #FFFBE0;
   color: purple;
@@ -119,7 +119,7 @@ aside {
   z-index: 2;
   display: flex;
   justify-content: space-between;
-  height: 8rem;
+  height: 10rem;
   width: 100%;
   background-color: #5B4447;
   padding: .5rem 0 0 0;
@@ -140,7 +140,7 @@ aside a {
 aside a img {
   width: 3rem;
   height: 3rem;
-  margin: 0 0 4.5rem .75rem;
+  margin: 0 0 6rem .75rem;
 }
 
 .top-right-div {
@@ -283,8 +283,18 @@ h4 {
 }
 /*----------queries-----------*/
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 795px) {
   
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  
+  h1 img {
+    height: 4rem;
+    width: 4rem;
+  }
+
   .anchor-div {
     height: 100%;
     width: 9rem;
@@ -295,20 +305,26 @@ h4 {
   .anchor-div a {
     display: block;
     padding: 1rem auto;
-    margin: 1.25rem 0 0 .25rem; ;
+    margin: 1.25rem 0 0 0.25rem; ;
   }
 }
 
 @media screen and (max-width: 550px) {
 
   h1 {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
   }
 
   h1 img {
     height: 3rem;
     width: 3rem;
   }
+
+  .anchor-div a {
+    margin-right: 0
+    font-size: 1.25rem;
+  } 
+
 }
 
 @media screen and (max-device-width: 425px) {
@@ -325,24 +341,30 @@ h4 {
   .profile-pic {
     margin: 1rem 0 0 0;
   }
+  
+  .anchor-div {
+   z-index: -17;
+  }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 395px) {
 
   section {
     height: 5rem;
   }
 
-  .anchor-div {
-   z-index: -7;
+  select {
+    margin-right: 0;
   }
+
+
 
   .profile-pic {
     height: 0rem;
   }
 
   h1 {
-    width: 100%;
+    margin-right: 0;
   }
 
   article {
