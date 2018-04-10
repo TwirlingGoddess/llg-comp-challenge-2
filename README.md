@@ -7,7 +7,7 @@ Here is the original comp:
 
 Here is my version:
 
-![MY MOCK UP](https://github.com/TwirlingGoddess/llg-comp-challenge-1/blob/master/Screen%20Shot%202018-03-27%20at%201.37.26%20PM.png)
+![MY MOCK UP](https://github.com/TwirlingGoddess/llg-comp-challenge-2/blob/master/Screen%20Shot%202018-04-10%20at%203.26.17%20AM.png)
 
 
 ## Static Comp Challenge 2
