@@ -3,7 +3,7 @@ Static Comp #2 challenge
 
 Here is the original comp:
 
-![ORIGINAL](http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg)
+![ORIGINAL](https://github.com/TwirlingGoddess/llg-comp-challenge-2/blob/master/Screen%20Shot%202018-04-10%20at%203.24.51%20AM.png)
 
 Here is my version:
 
