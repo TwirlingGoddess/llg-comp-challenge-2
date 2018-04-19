@@ -5,7 +5,7 @@ Here is the original comp:
 
 ![ORIGINAL](https://github.com/TwirlingGoddess/llg-comp-challenge-2/blob/master/Screen%20Shot%202018-04-10%20at%203.24.51%20AM.png)
 
-Here is my version:
+Here is this link to my version, shown below: (https://twirlinggoddess.github.io/llg-comp-challenge-2/)
 
 ![MY MOCK UP](https://github.com/TwirlingGoddess/llg-comp-challenge-2/blob/master/Screen%20Shot%202018-04-10%20at%203.26.17%20AM.png)
 
